@@ -1,4 +1,4 @@
-FROM amd64/centos7
+FROM amd64/centos
 LABEL org.label-schema.version=v1
 RUN yum update -y
 RUN yum install httpd -y
